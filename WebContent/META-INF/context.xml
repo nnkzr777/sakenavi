@@ -1,0 +1,11 @@
+<Context reloadable="true">
+	<Resource
+		name="jdbc/sakenavi"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://192.168.33.124:3306/sakenavi?serverTimezone=JST"
+		username="root"
+		password="password"
+	/>
+</Context>
